@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loginClicked:(id)sender {
+    [self performSegueWithIdentifier:@"login_success" sender:self];
+
+}
 @end

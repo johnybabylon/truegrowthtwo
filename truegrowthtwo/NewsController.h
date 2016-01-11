@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewsController.h
 //  truegrowthtwo
 //
 //  Created by elliott chavis on 1/11/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)loginClicked:(id)sender;
+@interface NewsController : UICollectionViewController
 
 @end
-

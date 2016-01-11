@@ -14,6 +14,12 @@
 		2981C6161C43B6E0003D2347 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6151C43B6E0003D2347 /* Images.xcassets */; };
 		2981C6191C43B6E0003D2347 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6171C43B6E0003D2347 /* LaunchScreen.xib */; };
 		2981C6251C43B6E0003D2347 /* truegrowthtwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981C6241C43B6E0003D2347 /* truegrowthtwoTests.m */; };
+		2981C6301C43BBAF003D2347 /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2981C62F1C43BBAF003D2347 /* NewsController.m */; };
+		2981C6361C43BFED003D2347 /* fruit_melon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6311C43BFED003D2347 /* fruit_melon.jpg */; };
+		2981C6371C43BFED003D2347 /* fruit_blueberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6321C43BFED003D2347 /* fruit_blueberry.jpg */; };
+		2981C6381C43BFED003D2347 /* fruit_grapes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6331C43BFED003D2347 /* fruit_grapes.jpg */; };
+		2981C6391C43BFED003D2347 /* fruit_orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6341C43BFED003D2347 /* fruit_orange.jpg */; };
+		2981C63A1C43BFED003D2347 /* fruit_apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2981C6351C43BFED003D2347 /* fruit_apple.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		2981C61E1C43B6E0003D2347 /* truegrowthtwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = truegrowthtwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2981C6231C43B6E0003D2347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2981C6241C43B6E0003D2347 /* truegrowthtwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = truegrowthtwoTests.m; sourceTree = "<group>"; };
+		2981C62E1C43BBAF003D2347 /* NewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsController.h; sourceTree = "<group>"; };
+		2981C62F1C43BBAF003D2347 /* NewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsController.m; sourceTree = "<group>"; };
+		2981C6311C43BFED003D2347 /* fruit_melon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit_melon.jpg; sourceTree = "<group>"; };
+		2981C6321C43BFED003D2347 /* fruit_blueberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit_blueberry.jpg; sourceTree = "<group>"; };
+		2981C6331C43BFED003D2347 /* fruit_grapes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit_grapes.jpg; sourceTree = "<group>"; };
+		2981C6341C43BFED003D2347 /* fruit_orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit_orange.jpg; sourceTree = "<group>"; };
+		2981C6351C43BFED003D2347 /* fruit_apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit_apple.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +99,14 @@
 				2981C60F1C43B6E0003D2347 /* ViewController.h */,
 				2981C6101C43B6E0003D2347 /* ViewController.m */,
 				2981C6121C43B6E0003D2347 /* Main.storyboard */,
+				2981C62E1C43BBAF003D2347 /* NewsController.h */,
+				2981C62F1C43BBAF003D2347 /* NewsController.m */,
 				2981C6151C43B6E0003D2347 /* Images.xcassets */,
+				2981C6311C43BFED003D2347 /* fruit_melon.jpg */,
+				2981C6321C43BFED003D2347 /* fruit_blueberry.jpg */,
+				2981C6331C43BFED003D2347 /* fruit_grapes.jpg */,
+				2981C6341C43BFED003D2347 /* fruit_orange.jpg */,
+				2981C6351C43BFED003D2347 /* fruit_apple.jpg */,
 				2981C6171C43B6E0003D2347 /* LaunchScreen.xib */,
 				2981C6081C43B6E0003D2347 /* Supporting Files */,
 			);
@@ -200,7 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2981C6141C43B6E0003D2347 /* Main.storyboard in Resources */,
+				2981C63A1C43BFED003D2347 /* fruit_apple.jpg in Resources */,
 				2981C6191C43B6E0003D2347 /* LaunchScreen.xib in Resources */,
+				2981C6381C43BFED003D2347 /* fruit_grapes.jpg in Resources */,
+				2981C6371C43BFED003D2347 /* fruit_blueberry.jpg in Resources */,
+				2981C6391C43BFED003D2347 /* fruit_orange.jpg in Resources */,
+				2981C6361C43BFED003D2347 /* fruit_melon.jpg in Resources */,
 				2981C6161C43B6E0003D2347 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2981C6301C43BBAF003D2347 /* NewsController.m in Sources */,
 				2981C6111C43B6E0003D2347 /* ViewController.m in Sources */,
 				2981C60E1C43B6E0003D2347 /* AppDelegate.m in Sources */,
 				2981C60B1C43B6E0003D2347 /* main.m in Sources */,
@@ -412,6 +438,7 @@
 				2981C62A1C43B6E0003D2347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2981C62B1C43B6E0003D2347 /* Build configuration list for PBXNativeTarget "truegrowthtwoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +447,7 @@
 				2981C62D1C43B6E0003D2347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
